@@ -1,0 +1,62 @@
+  .airport-section .hero-section {
+    background-image:url('Travel.png'); 
+    background-size: cover;
+    background-position: center 15%; 
+    height: 80vh;
+    }
+
+  .professional-text {
+    width: 630px; 
+    background-color: #fff;
+    opacity: 0.9;
+    margin-left: 5%;
+    margin-top: 27%;
+    padding:40px; 
+    box-sizing: border-box; 
+    }
+  .professional-text h5{
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #233852;
+    }
+
+  .airport-section .professional-btn{
+    width: 170px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #102643;
+    font-size: 18px;
+    border-radius: 0;
+    }
+
+  .row{
+    flex: none;
+    }
+
+    @media screen and (max-width:1200px){
+
+    .professional-text{
+    width: auto;
+    text-align: center;
+    font-size: small;
+    margin-left: 0;
+    padding: 5px;
+    margin-top: 35%;
+    }
+
+    .airport-section .professional-btn{
+    display: inline-flex;
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    }
+
+    .airport-section .hero-section{
+    height: 46vh;
+    }
+
+    }

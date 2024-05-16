@@ -1,0 +1,68 @@
+    .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0; 
+    }
+
+    .carousel-container h5{
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+    .carousel-nav {
+    width: 70%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(288deg) brightness(100%) contrast(102%);
+    }
+
+    .carousel-nav .row {
+    justify-content: space-between;
+    align-items: center; 
+    }
+
+    .carousel-nav .col-md {
+    padding: 0; 
+    text-align: center; 
+    }
+
+    .carousel-nav h5 {
+    margin: 0; 
+    font-size: 14px; 
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+    position: relative;
+    }
+
+    #airport-transportation {
+    color: #58A2AA;
+    }
+
+    .nav-arrows{
+    position: relative !important; 
+    }
+
+    .left-arrow,
+    .right-arrow{
+    transform: translateY(0);
+    }
+
+    .right-arrow{
+    margin-right: -60%;
+    }
+
+    .left-arrow{
+    margin-left: -60%;
+    }
+
+    @media screen and (max-width:1200px){
+
+    .carousel-container button{
+    display: none;
+    }
+
+    }

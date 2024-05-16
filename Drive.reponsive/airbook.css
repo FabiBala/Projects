@@ -1,0 +1,115 @@
+
+
+.navbar-nav {
+display:inline-flex;
+justify-content: center;
+align-items: center;
+margin-left: 100px;
+}
+
+.airbrook-nav .icon{
+  margin-left: 200px;
+  }
+
+.navbar-brand {
+  border: 2px solid black;
+  width: 200px;
+  text-align: center;
+  margin-left: 100px; 
+}
+
+.navbar-nav .nav-item:nth-child(1){
+  color:#4C9BA3;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px; 
+}
+
+.airbrook-nav .btn{
+  border-radius: 0;
+  font-size: 16px;
+  height: 100%;
+}
+
+.airbrook-nav .btn:first-child{
+background-color:#EBECED;
+}
+
+.airbrook-nav .btn:nth-child(2){
+background-color:#0D2441;
+color: #fff;
+}
+
+.car-btn{
+  margin-left: 40px;
+}
+
+.airbrook-section .hero-section {
+  background-image:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)), url('driver.jpg'); 
+  background-size: cover;
+  background-position: center 38%; 
+  height: 78vh;
+
+}
+
+.driver .container{
+  position: relative;
+  color: #fff;
+  top: 75%;
+  width: 37%;
+  margin-left: 180px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.driver .btn {
+position:relative;
+left: 80%;
+top:56%;
+color:#4C9BA3;
+background-color: #fff;
+border-radius: 0;
+}
+
+@media screen and (max-width: 1200px){
+
+
+.airbrook-nav .icon{
+  display: none;
+  }
+  
+  .navbar-brand{
+  margin: 0;
+  width: 150px;
+  }
+  
+.airbrook-section .hero-section{
+  height: 48vh;
+  background-position: 0;
+}
+
+.airbrook-section .hero-section h1{
+  font-size: 20px;
+}
+
+.airbrook-section .hero-section p{
+  font-size: 14px;
+}
+
+.driver .container{
+width: 100%;
+top: 63%;
+margin-left: 0;
+text-align: center;
+}
+
+.driver .btn{
+  top: 0;
+  left: 20px;
+  font-size: 8px;
+  height: 29px;
+  width: 82px;
+}
+
+}
+

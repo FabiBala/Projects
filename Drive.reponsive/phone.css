@@ -1,0 +1,214 @@
+  .mobile-section {
+    padding-top: 30px; 
+  }
+  
+  .mobile-section h2,h5,h6{
+    font-family:'Times New Roman', Times, serif;
+    color: #233852;
+  }
+  
+  .text-center-width {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  margin-top: 30px;
+  }
+  
+  .btn-divided {
+    margin-top: 60px; 
+    text-align: center;
+    position: relative;
+  }
+  
+  .btn-divided button {
+  margin: 0 200px; 
+  height: 57px; 
+  width: 200px; 
+  }
+  
+  .btn-divided button:nth-child(1){
+  background-color:#0F2642;
+  border-color: #0F2642;
+  border-radius: 0;
+  }
+  
+  .btn-divided button:last-child{
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+  border-radius: 0;
+  }
+  
+  .divider {
+  position: absolute; 
+  top: 50%; 
+  transform: translateY(-20%); 
+  height: 140px; 
+  width: 1px; 
+  background-color: grey; 
+  margin: 0 auto; 
+  left: 50%; 
+  z-index: 1; 
+  }
+  
+  .button-text p{
+    width:170px;
+  }
+  
+  .button-text {
+  display:flex;
+  text-align: center;
+  margin-top: 30px; 
+  margin-left:564px; 
+  gap: 430px;
+  }
+  
+  .telefoane{
+  background-color:#EDEEEF;
+  }
+  
+  .telefoane .row p{
+    width: 82%;
+    margin-top: 20px;
+  }
+  
+  .butoane button {
+    height: 60px;
+    width: 198px;
+    position: relative; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    margin-right:20px;
+    background-color: #0F2642;
+  }
+  
+  .butoane{
+    display: flex;
+  }
+  
+  .butoane button p{
+    display: contents;
+  }
+  
+  .and-logo, .app-logo {
+    width: 30px;
+    height: auto; 
+    position: absolute;
+    left: 10px; 
+  }
+  
+  #phone-section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #mobile-application{
+    width: 60%;
+  }
+  
+  .card{
+    border-radius: 0;
+    border:#fff 1px solid
+  }
+  .card-body {
+    position: absolute; 
+    bottom: 0px; 
+    width: 80%; 
+    background-color: white; 
+    color: black; 
+    padding: 10px; 
+    margin-left: 30px; 
+    text-align: center;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(288deg) brightness(100%) contrast(102%);
+    transform: translateY(80%);
+  }
+  
+  .left-phone{
+    margin-left: -140% !important;
+  }
+  
+  .right-phone{
+    margin-right: -140% !important;
+  }
+  
+  @media screen and (max-width: 1200px){
+  
+    .driven-service h2{
+      margin-bottom: 30px;
+      font-size: 21px;
+      }
+  
+    .driven-service .divider{
+      display: none;
+      }
+  
+    .driven-service .button-text{
+      display: none;
+      }
+  
+    .driven-service .btn-divided{
+      margin-top: 0;
+      margin-top: 20px;
+      padding-bottom: 30px;
+    }
+  
+    .btn-divided .btn{
+      margin:10px;
+      width: 150px;
+      }
+  
+    .driven-service p{
+      text-align: center;
+      }
+  
+    .butoane{
+      display: contents;
+      }
+  
+    .butoane .btn{
+      width: 155px;
+      margin: 10px;
+      }
+  
+    .butoane .btn p{
+      font-size: 13px;
+      display: contents;
+      }
+  
+    .and-logo, .app-logo{
+      width: 24px;
+      }
+  
+    #phone-section{
+      display: block;
+      }
+  
+    #mobile-application{
+      width: auto;
+      }
+  
+    .telefoane h2{
+      margin-bottom: 30px;
+      }
+  
+    .telefoane .row{
+      flex-wrap: nowrap;
+      }
+  
+    .telefoane .row p{
+      width: 90%;
+      margin-left: 13px;
+      }
+  
+    .mobile-btns{
+      text-align: center;
+      }
+  }
+  

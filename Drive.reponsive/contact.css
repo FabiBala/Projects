@@ -1,0 +1,77 @@
+.contact-section {
+    padding-top: 3%;
+    color: white;
+    background-color: #2E3033;
+    }
+    
+    .contact-section h5{
+      font-family:'Times New Roman', Times, serif;
+    }
+    
+    .contact-section h4 {
+    border: 2px solid;
+    width: 150px;
+    margin-bottom: 30px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .contact-section .icons button {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    color: #fff;
+    background-color: #328A94;
+    border: none;
+    }
+    
+    .contact-section .links a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    .contact-section .col-md-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    
+    .contact-section .col-md-3 ul,
+    h5 {
+    margin-bottom: 1rem;
+    }
+    
+    .contact-section .col-md-3 ul li {
+    margin-bottom: 0.5rem;
+    }
+    
+    .contact-section .contact-bar {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 1px solid #9e96965d;
+    }
+    
+    .contact-section .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center; 
+    }
+    
+    #call-number{
+    color: #328A94;
+    }
+    
+    @media screen and (max-width:1200px){
+      .under-bar{
+        margin-right: 43px;
+      }
+    
+    }
